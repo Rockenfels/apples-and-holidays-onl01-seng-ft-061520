@@ -67,7 +67,7 @@ def all_supplies_in_holidays(holiday_hash)
      end
      season_caps.join(" ")
      puts season_caps
-     puts.
+     puts season_caps.class
      
      holiday_hash[season].each do |holiday|
        supplies = holiday.values
