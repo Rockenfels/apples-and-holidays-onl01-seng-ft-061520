@@ -76,6 +76,7 @@ def all_supplies_in_holidays(holiday_hash)
         message = "#{celebration}#{supplies.join(", ")}"
         puts message
       end
+      binding.pry
     end
  end
 
