@@ -70,6 +70,7 @@ def all_supplies_in_holidays(holiday_hash)
      
      holiday_hash[season].each do |holiday|
        values = holiday.values
+       
      end
      
    end
