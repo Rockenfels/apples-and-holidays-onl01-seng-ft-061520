@@ -71,6 +71,7 @@ def all_supplies_in_holidays(holiday_hash)
     
      
      holiday_hash[season].each do |holiday|
+       binding.pry
        supplies = holiday.values
        supplies.collect {|word| word.capitalize}
        supplies.join(", ")
