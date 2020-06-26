@@ -66,7 +66,6 @@ def all_supplies_in_holidays(holiday_hash)
        word.capitalize!()
      end
      season_caps.join(" ")
-     binding.pry
      puts season_caps[0] + ":"
     
      
